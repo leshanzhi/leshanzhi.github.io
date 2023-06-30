@@ -1,0 +1,394 @@
+<!DOCTYPE html <html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <!-- http-equiv="Content-Type" 把content属性关联到http头部 content="text/html; 定义与 http-equiv或name属性相关的元信息 charset=utf-8" 定义文档编码-->
+    <title>南柯一梦 - 资源导航</title>
+    <meta name="keywords" content="南柯一梦 - 资源导航">
+    <!-- 定义文档关键词，用于搜索引擎 -->
+    <meta name="description" content="网络优质资源集结地">
+    <!-- 定义web页面描述 -->
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <!-- 每三十秒刷新 -->
+    <link rel="shortcut icon" href="001.png" type="image/x-icon">
+    <!-- 链接导航栏图片 -->
+    <link type="text/css" rel="stylesheet" href="">
+    <!-- <link rel="stylesheet" href=""> -->
+    <!-- link 链接外部资源 type 规定被链接文档的MIME的类型（type="MIME_type"）  rel 必需，定义当前文档与被链接文档之间的关系 stylesheet 定义css样式 href 定义被链接文档的位置-->
+    
+    
+
+    <style type="text/css">
+        /* css样式 */
+        /* 全局 */
+        html,body,div,h1,h2,h3,h4,h5,h6,p,span,em,a,img,ul,li,ol,form,button,input,textarea,dl,dt,dd,iframe {
+            margin: 0;
+            padding: 0;
+        }
+
+        .scrollbar{
+
+    width:30px;
+
+    height:300px;
+
+    margin:0 auto;
+
+ 
+
+}
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+
+        width:10px;    /*高宽分别对应横竖滚动条的尺寸*/
+
+        height:10px;
+
+    }
+
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+
+        border-radius:10px;
+
+         /* -webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2); */
+
+        background:#2783e0;
+
+    }
+
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+
+        /* -webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2); */
+
+        border-radius:10px;
+
+        background:#EDEDED;
+
+    }
+        .test-5::-webkit-scrollbar {/*滚动条整体样式*/
+
+    width:10px;    /*高宽分别对应横竖滚动条的尺寸*/
+
+    height:1px;
+
+}
+
+
+
+
+
+        /* 消除边距 */
+        body {
+            text-align: left;
+            font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", "Verdana", sans-serif;
+            /* background:#EDEDED url("0") repeat 0 0; */
+            /* background: no-repeat center/100% url("0007.jpg"); */
+            background-image: url(0001.jpg);
+            background-position: center center;
+            background-attachment:fixed; 
+            background-repeat:no-repeat
+            /* color: #888; */
+        }
+
+        /* 字体位置 字体 背景颜色(插入背景图片) 主体字体颜色*/
+        a {
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            outline: 0 none;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -ms-transition: all .2s linear;
+            transition: all .2s linear;
+        }
+
+        /* a:hover,a:focus{text-decoration:none;color:#CD2407;} */
+
+        /* h1,h2,h3,h4,h5,h6,em{font-size:14px;font-weight:normal;} */
+
+        /* h2{color:#000;} */
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        /* 列表没有点 */
+        /* em{font-style: normal;} */
+
+        /* img{border:0;vertical-align:middle;} */
+
+        /* a:hover img{filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5;} */
+
+        /* .clear{clear:both;} */
+
+        /* .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} */
+
+        /* .clearfix{display:inline-block;}Hides from IE-mac \* html .clearfix{height:1%;}.clearfix{display:block;}.clearfix{zoom:1;} */
+
+        .wrap {
+            margin: 0 auto;
+            width: 980px;
+        }
+
+        /* .mt10{margin-top:10px;}
+
+        .mt20{margin-top:20px;}
+
+        .mt1{margin-top:1px;} */
+
+        /* 头部 */
+
+        .nav_bar {
+            height: 50px;
+            background: #2783e0;
+            color: #FFF;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+        /* .nav_bar a{color:#fff;text-decoration:none;} */
+
+        /* .nav_bar a:hover{color:#63b8ff;text-decoration:none;} */
+
+        .nav_bar .domain {
+            float: left;
+            font: normal 25px/50px "microsoft yahei", "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53";
+        }
+
+        .nav_bar .nav_bar_r {
+            float: left;
+            line-height: 60px;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+
+        /* 导航菜单 */
+        .nav_menu {
+            width: 980px;
+            overflow: hidden;
+        }
+
+        .nav li {
+            /* background: #fff; */
+            /* 名为nav 的li 背景颜色 不定义则为透明 */
+            width: 162px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            color: #fff;
+            /* border-left: 1px solid #e6e6e6; */
+            /* 左边框线设置 */
+            float: left;
+            text-align: center;
+            /* text-shadow: 1px 1px 1px #f5f5f5; */
+            /* 文字拖影 */
+            /* border-bottom: 1px solid #e6e6e6; */
+            /* 按钮边框线 */
+        }
+
+        .nav li a {
+            display: inline-block;
+            width: 162px;
+            color: #000;
+        }
+
+        .nav li a:hover {
+            background-color: #000;
+            color: #FFF;
+            text-decoration: none;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+        .nav .active {
+            background: #a5160f;
+            width: 124px;
+            border-left: none;
+        }
+
+        
+
+        .btcont {
+            width: 124px;
+            height: 40px;
+            font-size: 16px;
+            font-family: microsoft yahei;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 40px;
+            background: #2783e0;
+            z-index: 500;
+            margin: 0 0 10px 1px;
+            border-radius: 4px;
+        }
+
+
+
+        /* 尾部 */
+        .nav_menu_foot {
+            width: 980px;
+            overflow: hidden;
+        }
+
+        .nav_menu_foot li {
+            background: #fff;
+            width: 121px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            color: #a5160f;
+            border-left: 1px solid #e4e4e4;
+            float: left;
+            text-align: center;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+        .nav_menu_foot li a {
+            display: inline-block;
+            width: 121px;
+            color: #2783e0;
+        }
+
+        .nav_menu_foot li a:hover {
+            background-color: #000;
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        .foot_cb {
+            width: 980px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            margin: 20px auto 0;
+        }
+
+        .copyright {
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .wrap mt1 nav{
+            color: rgba(0, 0, 0, 0);
+        }
+
+
+        .zhuye{
+            color: rgb(247, 240, 240);
+            
+        }
+
+    </style>
+</head>
+
+<body>
+  
+    <div class="nav_bar">
+        <div class="wrap"><span class="domain">
+                <a style="color: rgb(255, 255, 255);" href="http://baidu.com" title="主页" rel="external nofollow" target="_blank">
+                    南柯一梦 - 资源导航
+                </a>
+
+
+            
+        
+        </span>
+            <div class="nav_bar_r">
+                <a style="color: rgb(255, 255, 255);" href="http://baidu.com" title="主页" rel="external nofollow" target="_blank">
+                    个人网站收纳站点
+                </a>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <br>
+    <div class="wrap mt1 nav">
+        <div class="btcont">更多</div>
+        <ul class="nav nav_menu clearfix">
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="#" title="虚位以待" rel="external nofollow" target="_blank">虚位以待</a></li>
+            <li><a href="http://baidu.com" title="返回" rel="external nofollow" target="_blank">返回</a></li>
+        </ul>
+
+    </div>
+
+
+
+
+
+    <center>
+        <br>
+        Copyright &copy; 2021-2021&nbsp
+         <a href="http://baidu.com/">南柯一梦</a>
+        </br>
+        免责声明：所有站点源于收集或网友分享,其内容与本站无关！
+        </div>
+
+
+
+
+</body>
+
+</html>
